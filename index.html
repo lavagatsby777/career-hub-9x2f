@@ -31,16 +31,26 @@ padding:13px 14px;border-radius:12px;min-width:120px}
 .dl{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;
 padding:14px 16px;margin:0 0 10px;text-decoration:none;color:var(--text)}
 .dl b{color:var(--chrome)} .dl span{color:var(--blue);font-size:13px;font-weight:700}
-.score{float:right;text-align:center;margin-left:12px}
+.scores{float:right;display:flex;gap:10px;margin-left:12px}
+.score{text-align:center}
 .scoren{font-family:Georgia,serif;font-size:22px;font-weight:700;color:var(--chrome)}
 .scorel{font-size:10px;color:var(--mut);text-transform:uppercase}
+.traj{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;
+text-transform:uppercase;padding:3px 10px;border-radius:20px;margin:8px 0 0}
+.traj.floor{background:#23272e;color:var(--mut)}
+.traj.bridge{background:#3a3113;color:var(--gold)}
+.traj.launchpad{background:#12351f;color:var(--green)}
+.ev{margin:10px 0 0;padding:10px 12px;background:#111318;border:1px solid var(--line);
+border-radius:10px;font-size:13px}
+.ev .want{color:var(--mut)} .ev .have{color:var(--green)}
+.ev div{margin:3px 0}
 .verdict{font-size:14px;margin:8px 0 0;color:var(--chrome)}
 .foot{color:var(--mut);font-size:12px;margin-top:34px;border-top:1px solid var(--line);padding-top:14px}
 a.plain{color:var(--gold)}
 </style></head><body><div class="wrap">
 <p class="kicker">ONYX Career Ops</p>
 <h1>Job Command Center</h1>
-<p class="sub">Updated Tue Jul 7, 9:58 PM · tap Apply, grab your resume, go. Add this page to your home screen.</p>
+<p class="sub">Updated Tue Jul 7, 10:44 PM · tap Apply, grab your resume, go. Add this page to your home screen.</p>
 
 <div class="section">Apply now — ranked</div>
 
@@ -84,112 +94,271 @@ a.plain{color:var(--gold)}
 <div class="section">My resumes (download to your phone)</div>
 <a class="dl" href="resumes/resume-management-assistant.pdf" target="_blank"><b>Federal admin resume (Management Assistant)</b><br><span>tap to open / download →</span></a><a class="dl" href="resumes/resume-medical-support.pdf" target="_blank"><b>Federal admin resume (Medical Support Assistant)</b><br><span>tap to open / download →</span></a><a class="dl" href="resumes/resume-va-voluntary.pdf" target="_blank"><b>VA service resume (Voluntary Services)</b><br><span>tap to open / download →</span></a><a class="dl" href="resumes/resume-office-assistant.pdf" target="_blank"><b>Remote office resume (Coalition)</b><br><span>tap to open / download →</span></a><a class="dl" href="resumes/resume-creative-operator.pdf" target="_blank"><b>Creative Director resume (web design roles)</b><br><span>tap to open / download →</span></a>
 
-<div class="section">Everything the agent found</div>
+<div class="section">Everything the agent found — floor score · ownership score</div>
 
     <div class="card">
-      <div class="score"><div class="scoren">72</div><div class="scorel">fit</div></div>
+      <div class="scores">
+        <div class="score"><div class="scoren">15</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">92</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">VP Creative</p>
+      <p class="mrow">Kanahoma · Remote · pay n/a</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Dream creative role on paper, but likely requires full-time agency commitment that kills his independent studio, and salary is unknown—too risky as primary income without clarity.</p>
+      <div class="ev"><div><span class="want">they want: defines creative vision, leads designers and creative teams</span><br><span class="have">you have: produced full album independently, books paying clients, ships end-to-end websites; runs one-man studio managing multiple creative threads</span></div><div><span class="want">they want: oversees creative services, balancing innovation with execution</span><br><span class="have">you have: produces, mixes, masters independently; manages client roster and project delivery</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-vp-creative-kanahoma-1134447" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22Kanahoma%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">65</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">85</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">VP Paid Media</p>
+      <p class="mrow">Kanahoma · Remote · pay n/a</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Strong fit on location, leadership, and ownership signal; crafts overlap in digital strategy but paid media is not his home turf. Would need salary confirmation and honest assessment of whether managing a team full-time leaves creative capacity.</p>
+      <div class="ev"><div><span class="want">they want: Strategic direction and product definition for a service offering</span><br><span class="have">you have: He runs Onyx studio — defines products (websites, branding, systems), strategy, and client outcomes end-to-end</span></div><div><span class="want">they want: Team leadership and execution quality</span><br><span class="have">you have: Produces full albums and delivers finished creative to clients who sign off and pay; manages multiple concurrent client projects</span></div><div><span class="want">they want: Partner outcomes and new business development</span><br><span class="have">you have: Booked paying client roster from zero within 60 days; has proven ability to grow and manage client relationships</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-vp-paid-media-kanahoma-1134459" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22Kanahoma%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">78</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">5</div><div class="scorel">own</div></div>
+      </div>
       <p class="mini">Program Support Assistant</p>
       <p class="mrow">Veterans Health Administration · San Diego, California · $57,641 - $74,935</p>
-      <p class="verdict">Strong fit. This is the rare job that checks all boxes: federal stability, brain-free admin work, local, steady hours, beats pay, leaves energy for his web business, and aligns with his values (serving veterans, respectful culture).</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Strong floor fit: stable pay, local, brain-free admin work that leaves nights for ONYX. Not ownership-bearing, but honest work that funds the family and protects creative energy.</p>
+      <div class="ev"><div><span class="want">they want: Administrative duties, timecards, supplies, work orders</span><br><span class="have">you have: Lava has years of accurate records/data-entry work in warehouses, retail, and own studio operations</span></div><div><span class="want">they want: Nursing Office lead role, coordination</span><br><span class="have">you have: Lava runs ONYX studio solo, managing multi-client projects and administrative ops</span></div><div><span class="want">they want: San Diego, California</span><br><span class="have">you have: Lava is in North Park, San Diego</span></div></div>
       <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/875418200" target="_blank">View / Apply →</a></div>
       <p class="mrow" style="margin-top:8px">source: USAJobs</p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">71</div><div class="scorel">fit</div></div>
-      <p class="mini">Office Assistant</p>
-      <p class="mrow">Coalition Technologies  · Remote · $31,2k- $52k</p>
-      <p class="verdict">Promising fit on cognitive, values, and benefits grounds, but salary range is uncertain—upper end beats Sprouts, lower end does not; needs clarification on actual offer and schedule reliability.</p>
-      <div class="btns"><a class="btn apply" href="https://remotive.com/remote-jobs/marketing/office-assistant-1680495" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: Remotive · <a class="plain" href="https://www.google.com/search?q=%22Coalition+Technologies+%22+careers" target="_blank">apply direct (free)</a></p>
+      <div class="scores">
+        <div class="score"><div class="scoren">52</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">78</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Staff UI/UX Product Designer (USA/EMEA - Remote)</p>
+      <p class="mrow">Hospitable · Remote · pay n/a</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Strong fit with caveat. This is his actual craft (design, UX, shipping products) in a creative-lead role at a small, mission-driven team. Remote + distributed culture protects his family time. Missing only confirmed salary and equity clarity.</p>
+      <div class="ev"><div><span class="want">they want: leading design and UX work</span><br><span class="have">you have: built and shipped client websites end-to-end including design and brand identity rebrand</span></div><div><span class="want">they want: destroying complexity, rapid iteration with customers</span><br><span class="have">you have: produced full albums with client feedback and sign-off, booked paying client roster in 60 days</span></div><div><span class="want">they want: remote-distributed, fully autonomous</span><br><span class="have">you have: runs one-man studio shipping to multiple paying clients, self-taught on complex software</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://weworkremotely.com/remote-jobs/hospitable-staff-ui-ux-product-designer-usa-emea-remote-1" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: WeWorkRemotely · <a class="plain" href="https://www.google.com/search?q=%22Hospitable%22+careers" target="_blank">apply direct (free)</a></p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">71</div><div class="scorel">fit</div></div>
-      <p class="mini">Sr. Research &amp; Grants Manager (Remote/Hybrid opportunity)</p>
-      <p class="mrow">Stanford University · Remote · pay n/a</p>
-      <p class="verdict">Strong fit. Research grants management is steady, detail-focused, respects his schedule, likely pays $55k+, and leaves mental energy for evening web-design—close match to his ideal.</p>
-      <div class="btns"><a class="btn apply" href="https://www.themuse.com/jobs/stanforduniversity/sr-research-grants-manager-remotehybrid-opportunity-81b736" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: The Muse · <a class="plain" href="https://www.google.com/search?q=%22Stanford+University%22+careers" target="_blank">apply direct (free)</a></p>
+      <div class="scores">
+        <div class="score"><div class="scoren">55</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">75</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Marketing Automation SaaS + Services Line of Business Owner</p>
+      <p class="mrow">New Law Business Model · Remote · pay n/a</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Strong potential. This is ownership-bearing, generalist-friendly work that maps to his studio operations, creative delivery, and multi-client management. Must verify salary and equity terms, but trajectory and scope suggest a genuine launchpad for him to wear many hats and grow into a leadership stake.</p>
+      <div class="ev"><div><span class="want">they want: running and scaling a line of business; configuring tools for client success; managing delivery of marketing assets</span><br><span class="have">you have: Lava runs Onyx studio (one-man operation scaling to client roster), builds end-to-end sites, manages multi-client delivery, coordinates brand and content systems</span></div><div><span class="want">they want: off-the-shelf technologies configured for niche market success</span><br><span class="have">you have: Lava masters complex software fast (DAWs, web stacks, AI tooling) without formal training and ships them into client workflows</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://weworkremotely.com/remote-jobs/new-law-business-model-marketing-automation-saas-services-line-of-business-owner" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: WeWorkRemotely · <a class="plain" href="https://www.google.com/search?q=%22New+Law+Business+Model%22+careers" target="_blank">apply direct (free)</a></p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">71</div><div class="scorel">fit</div></div>
-      <p class="mini">Medical Support Assistant (Office Automation)</p>
-      <p class="mrow">Military Treatment Facilities under DHA · Naval Medical Center, San Diego, California · $46,533 - $60,494</p>
-      <p class="verdict">Good fit; local, brain-free, stable, and leaves energy for web design, though pay gains are modest and role is deliberately routine.</p>
-      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/874159600" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
+      <div class="scores">
+        <div class="score"><div class="scoren">45</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">75</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Head of Engineering</p>
+      <p class="mrow">Lemon.io · Remote · pay n/a</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Best fit yet. He is a self-taught builder with a track record of owning multi-discipline creative transformations, direct client relationships, and shipping. Lemon.io is hunting a hands-on engineering leader, not a resume-credential guy — his pattern (learn fast, own the work, ship) matches their moment. Salary secrecy and no formal CS degree are real concerns, but the trajectory and ownership stake are aligned.</p>
+      <div class="ev"><div><span class="want">they want: Lead engineering transformation from services to platform</span><br><span class="have">you have: He has built and shipped client websites end-to-end; transitioned from music production to web design; proven ability to own multi-phase projects</span></div><div><span class="want">they want: Head of Engineering = leadership + deep technical judgment</span><br><span class="have">you have: He runs Onyx studio solo: manages client roster, owns creative + ops + delivery; has proven leadership over his own work and client relationships</span></div><div><span class="want">they want: 60-person, 10-year-old company transitioning to tech-platform model</span><br><span class="have">you have: He went from self-taught music producer to self-taught web designer + AI tools; pattern of navigating complex technical transitions without formal training</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://remotive.com/remote-jobs/software-development/head-of-engineering-2090983" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: Remotive · <a class="plain" href="https://www.google.com/search?q=%22Lemon.io%22+careers" target="_blank">apply direct (free)</a></p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">62</div><div class="scorel">fit</div></div>
-      <p class="mini">Administrative Assistant</p>
-      <p class="mrow">Pickle · Remote · pay n/a</p>
-      <p class="verdict">Solid prospect: admin/EA role aligns well with brain-free, stable, values-driven preferences; salary and remote-from-US eligibility are the only unknowns worth confirming.</p>
-      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-administrative-assistant-pickle-1134486" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22Pickle%22+careers" target="_blank">apply direct (free)</a></p>
+      <div class="scores">
+        <div class="score"><div class="scoren">68</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">72</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Operations Manager</p>
+      <p class="mrow">Hybrid85 · Remote · pay n/a</p>
+      <span class="traj bridge">bridge</span>
+      <p class="verdict">Strong structural fit: founder-adjacent ops role in a legit, growing small team; brain-free enough to protect ONYX, but salary confirmation is critical.</p>
+      <div class="ev"><div><span class="want">they want: Owns post-sale ops, customer inbox, order logistics end-to-end</span><br><span class="have">you have: Lava runs his own studio ops end-to-end, books clients, ships projects, handles records/data</span></div><div><span class="want">they want: Email-first, operations-focused</span><br><span class="have">you have: Years of accurate records/data-entry work (warehouses, own studio ops)</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://weworkremotely.com/remote-jobs/hybrid85-operations-manager" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: WeWorkRemotely · <a class="plain" href="https://www.google.com/search?q=%22Hybrid85%22+careers" target="_blank">apply direct (free)</a></p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">62</div><div class="scorel">fit</div></div>
-      <p class="mini">Specialist Payroll</p>
-      <p class="mrow">Delta Air Lines · Remote · pay n/a</p>
-      <p class="verdict">Good fit if salary beats $20/hr. Payroll specialist at a legacy airline is stable, brain-free, and remote—perfect for protecting energy for his web-design work.</p>
-      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-specialist-payroll-delta-air-lines-1134421" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22Delta+Air+Lines%22+careers" target="_blank">apply direct (free)</a></p>
-    </div>
-    <div class="card">
-      <div class="score"><div class="scoren">62</div><div class="scorel">fit</div></div>
-      <p class="mini">Management Assistant (Office Automation)</p>
-      <p class="mrow">Military Treatment Facilities under DHA · Naval Medical Center, San Diego, California · $51,871 - $67,432</p>
-      <p class="verdict">Strong candidate. Admin work at a major medical facility is stable, local, and likely low-stress enough to preserve energy for his business. Solid pay jump and good fit for his lifestyle.</p>
-      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/874601100" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
-    </div>
-    <div class="card">
-      <div class="score"><div class="scoren">58</div><div class="scorel">fit</div></div>
-      <p class="mini">Residential Real Estate Title Search Quality Control</p>
-      <p class="mrow">Pippin Title · Remote · pay n/a</p>
-      <p class="verdict">Moderate fit pending salary confirmation. QC work is brain-free and internal, but must verify pay exceeds $24/hr and understand whether the repetitive nature suits him.</p>
-      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-residential-real-estate-title-search-quality-control-pippin-title-1134453" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22Pippin+Title%22+careers" target="_blank">apply direct (free)</a></p>
-    </div>
-    <div class="card">
-      <div class="score"><div class="scoren">58</div><div class="scorel">fit</div></div>
-      <p class="mini">Supervisory Human Resources Assistant (Military/Office Automation)</p>
-      <p class="mrow">U.S. Military Entrance Processing Command · San Diego, California · $63,835 - $82,983</p>
-      <p class="verdict">Good fit on pay, stability, and low stress, but admin role demands some detail-focus and commute risk; worth applying but expect moderate cognitive overhead.</p>
-      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/874134200" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
-    </div>
-    <div class="card">
-      <div class="score"><div class="scoren">54</div><div class="scorel">fit</div></div>
-      <p class="mini">Voluntary Services Assistant</p>
-      <p class="mrow">Veterans Health Administration · San Diego, California · $51,871 - $67,432</p>
-      <p class="verdict">Good fit. VA administrative role is stable, local, values-aligned, and likely calm enough to protect his business time. Pay is solid, and the mission appeals to his integrity.</p>
-      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/875048600" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
-    </div>
-    <div class="card">
-      <div class="score"><div class="scoren">44</div><div class="scorel">fit</div></div>
+      <div class="scores">
+        <div class="score"><div class="scoren">72</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">5</div><div class="scorel">own</div></div>
+      </div>
       <p class="mini">Legal Assistant (Office Automation)</p>
       <p class="mrow">Executive Office for U.S. Attorneys and the Office of the U.S. Attorneys · San Diego, California · $46,533 - $74,935</p>
-      <p class="verdict">Moderate fit. Stable and local, but legal support is mentally demanding and deadline-heavy. Less likely to leave him &#x27;brain-free&#x27; than he needs for web-design work at night.</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Solid floor fit: stable, local, brain-free legal admin work with decent pay and federal benefits. Office Automation angle shows they value his tech comfort. No ownership or creative growth, but funds family and protects ONYX nights.</p>
+      <div class="ev"><div><span class="want">they want: Legal Assistant / Office Automation</span><br><span class="have">you have: Lava has years of accurate records/data-entry work and manages studio operations including filing, documents, and systems</span></div><div><span class="want">they want: San Diego, California</span><br><span class="have">you have: Lava is in North Park, San Diego</span></div></div>
       <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/875169700" target="_blank">View / Apply →</a></div>
       <p class="mrow" style="margin-top:8px">source: USAJobs</p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">35</div><div class="scorel">fit</div></div>
-      <p class="mini">Online Casino Game Tester</p>
-      <p class="mrow">RG&amp;T Solutions · Remote · pay n/a</p>
-      <p class="verdict">Weak fit—while pay and brain-freeness are good, this is a short-term contract gig without benefits or stability, and casino testing may not align with Lava&#x27;s Christian values or professional brand.</p>
-      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-online-casino-game-tester-rgampt-solutions-1134455" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22RG%26T+Solutions%22+careers" target="_blank">apply direct (free)</a></p>
+      <div class="scores">
+        <div class="score"><div class="scoren">72</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">8</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">MWR Golf Operations Assistant</p>
+      <p class="mrow">Commander, Navy Installations Command · San Diego, California · $50,082 - $56,343</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Solid floor option. Pays well, in San Diego, stable W2 with benefits, and admin ops align with his proven track record—but shift schedule may clip family time and offers zero growth or ownership.</p>
+      <div class="ev"><div><span class="want">they want: Business and administrative management with minimal supervision</span><br><span class="have">you have: He has years of accurate records/data-entry work (warehouses, retail, own studio ops); manages his own studio operations independently</span></div><div><span class="want">they want: Located in San Diego, California</span><br><span class="have">you have: He is currently in North Park, San Diego</span></div><div><span class="want">they want: Salary $50,082 - $56,343</span><br><span class="have">you have: Beats Sprouts $20/hr (~$41,600/yr); mid-point ~$53k meets his $50k+ target</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/875124100" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
     </div>
     <div class="card">
-      <div class="score"><div class="scoren">9</div><div class="scorel">fit</div></div>
-      <p class="mini">Senior Data Scientist</p>
-      <p class="mrow">Lemon.io · Remote · pay n/a</p>
-      <p class="verdict">Strong pay, remote, and schedule flexibility, but Senior Data Scientist is cognitively intensive and lacks W2 stability—somewhat at odds with &#x27;brain-free&#x27; and secure W2 preference.</p>
-      <div class="btns"><a class="btn apply" href="https://remotive.com/remote-jobs/data/senior-data-scientist-2090982" target="_blank">View / Apply →</a></div>
-      <p class="mrow" style="margin-top:8px">source: Remotive · <a class="plain" href="https://www.google.com/search?q=%22Lemon.io%22+careers" target="_blank">apply direct (free)</a></p>
+      <div class="scores">
+        <div class="score"><div class="scoren">72</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">15</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Supervisory Human Resources Assistant (Military/Office Automation)</p>
+      <p class="mrow">U.S. Military Entrance Processing Command · San Diego, California · $63,835 - $82,983</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Pays well and is stable, but is entirely disconnected from his builder/creative identity and would drain energy needed for his real work (ONYX); useful as a fallback floor only if ONYX stalls.</p>
+      <div class="ev"><div><span class="want">they want: Stable, legit, established employer (W2 preferred)</span><br><span class="have">you have: U.S. Military Entrance Processing Command is a permanent federal position</span></div><div><span class="want">they want: Pay meaningfully more than $20/hr</span><br><span class="have">you have: $63,835–$82,983/yr (roughly $30.69–$39.90/hr, beats $20/hr significantly</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/874134200" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
     </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">70</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">10</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Sr. Research &amp; Grants Manager (Remote/Hybrid opportunity)</p>
+      <p class="mrow">Stanford University · Remote · pay n/a</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Strong floor fit if salary clears $24/hr: brain-free, stable, remote, minimal supervision. But zero ownership signal — pure floor job. Only pursue if pay verification confirms it beats Sprouts and protects evening Onyx time.</p>
+      <div class="ev"><div><span class="want">they want: Work under minimal supervision on financial aspects of multiple projects, sub-awards, and PIs</span><br><span class="have">you have: Lava has years of accurate records/data-entry work in warehouses and retail; runs own studio ops including accurate client billing and project financials</span></div><div><span class="want">they want: Large volume and diverse set of sponsored research projects</span><br><span class="have">you have: Lava manages multiple concurrent client projects in his studio; proven ability to track and coordinate many threads at once</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.themuse.com/jobs/stanforduniversity/sr-research-grants-manager-remotehybrid-opportunity-81b736" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: The Muse · <a class="plain" href="https://www.google.com/search?q=%22Stanford+University%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">70</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">10</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Sr. Research &amp; Grants Manager (Remote/Hybrid opportunity)</p>
+      <p class="mrow">Stanford University · Remote · pay n/a</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Strong floor fit if salary clears $24/hr: brain-free, stable, remote, minimal supervision. But zero ownership signal — pure floor job. Only pursue if pay verification confirms it beats Sprouts and protects evening Onyx time.</p>
+      <div class="ev"><div><span class="want">they want: Work under minimal supervision on financial aspects of multiple projects, sub-awards, and PIs</span><br><span class="have">you have: Lava has years of accurate records/data-entry work in warehouses and retail; runs own studio ops including accurate client billing and project financials</span></div><div><span class="want">they want: Large volume and diverse set of sponsored research projects</span><br><span class="have">you have: Lava manages multiple concurrent client projects in his studio; proven ability to track and coordinate many threads at once</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.themuse.com/jobs/stanforduniversity/sr-research-grants-manager-remotehybrid-opportunity-3e5513" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: The Muse · <a class="plain" href="https://www.google.com/search?q=%22Stanford+University%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">68</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">52</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Office Assistant</p>
+      <p class="mrow">Coalition Technologies  · Remote · $31,2k- $52k</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Strong fit: stable W2 pay above Sprouts, profit-sharing scratches his ownership itch, remote + learning culture protects his studio time and self-directed growth; realistic path to expand into creative roles within the org.</p>
+      <div class="ev"><div><span class="want">they want: Organizing/operations work</span><br><span class="have">you have: He runs his own studio ops, manages client projects, data/records work in warehouses and retail</span></div><div><span class="want">they want: Learning and growth culture with device/learning reimbursement</span><br><span class="have">you have: He is self-taught across DAWs, web stacks, AI—a culture that funds self-directed learning is a natural fit</span></div><div><span class="want">they want: Profit-sharing up to 50% monthly</span><br><span class="have">you have: He owns ONYX and understands equity and revenue models; this mirrors founder-mindset compensation</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://remotive.com/remote-jobs/marketing/office-assistant-1680495" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: Remotive · <a class="plain" href="https://www.google.com/search?q=%22Coalition+Technologies+%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">68</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">5</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">CYP Child and Youth Program Assistant (Multi-Level)</p>
+      <p class="mrow">Commander, Navy Installations Command · Point Loma Complex, San Diego, California · $45,429 - $57,052</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Solid floor candidate: pays well, stable, local, and brain-free enough to preserve studio time, but offers no creative engagement or ownership stake—pure paycheck role.</p>
+      <div class="ev"><div><span class="want">they want: $45,429–$57,052 / year (federal W2, Point Loma)</span><br><span class="have">you have: Beats $20/hr (~$41.6k/yr); pay range exceeds Sprouts by ~$5–17k/year</span></div><div><span class="want">they want: Federal government employer, stable</span><br><span class="have">you have: Ranked top 3 in department sales at Nordstrom on service alone; proven ability to work within established institutional contexts</span></div><div><span class="want">they want: San Diego, Point Loma location</span><br><span class="have">you have: North Park-based; Point Loma is ~15 min drive from North Park</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/874016200" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">68</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">5</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">CYP Child and Youth Program Assistant (Multi-Level)</p>
+      <p class="mrow">Commander, Navy Installations Command · Point Loma Complex, San Diego, California · $45,429 - $57,052</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Solid floor candidate: pays well, stable, local, and brain-free enough to preserve studio time, but offers no creative engagement or ownership stake—pure paycheck role.</p>
+      <div class="ev"><div><span class="want">they want: $45,429–$57,052 / year (federal W2, Point Loma)</span><br><span class="have">you have: Beats $20/hr (~$41.6k/yr); pay range exceeds Sprouts by ~$5–17k/year</span></div><div><span class="want">they want: Federal government employer, stable</span><br><span class="have">you have: Ranked top 3 in department sales at Nordstrom on service alone; proven ability to work within established institutional contexts</span></div><div><span class="want">they want: San Diego, Point Loma location</span><br><span class="have">you have: North Park-based; Point Loma is ~15 min drive from North Park</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.usajobs.gov:443/job/874065300" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: USAJobs</p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">50</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">60</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Digital Marketing Specialist</p>
+      <p class="mrow">Wish You Were Here Group · Remote · pay n/a</p>
+      <span class="traj launchpad">launchpad</span>
+      <p class="verdict">Moderate fit on craft and leadership, but TBD location is a red flag (likely NYC-centric); no salary transparency and title/scope mismatch.</p>
+      <div class="ev"><div><span class="want">they want: Digital ecosystem ownership: websites, CRM, SEO, analytics, reservations, online ordering</span><br><span class="have">you have: He builds and ships client websites end-to-end (design, build, deploy), has experience with complex integrations (car-rental site with payments, real-estate rebrand)</span></div><div><span class="want">they want: Leading digital strategy across multiple brands/portfolio</span><br><span class="have">you have: Runs multi-client studio; manages many concurrent creative threads and deliverables</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-digital-marketing-specialist-wish-you-were-here-group-1134403" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22Wish+You+Were+Here+Group%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">58</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">2</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Payroll Associate</p>
+      <p class="mrow">Forvis · Remote · pay n/a</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Solid floor candidate if pay clears $24/hr. Payroll work is genuinely brain-free, data-precise, and stable—a strong fit for the &#x27;calm day job&#x27; axis. But zero ownership appeal and salary is unconfirmed; verify pay before pursuing.</p>
+      <div class="ev"><div><span class="want">they want: Detail-oriented, well-organized, accuracy and data validation under deadline</span><br><span class="have">you have: Years of accurate records/data-entry work in warehouses, retail, and own studio operations</span></div><div><span class="want">they want: Fast-paced environment, multitasking, under pressure while remaining flexible</span><br><span class="have">you have: Manages multi-track production and multi-client projects simultaneously in his studio</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://jobicy.com/jobs/146130-payroll-associate-2" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: Jobicy · <a class="plain" href="https://www.google.com/search?q=%22Forvis%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">55</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">35</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Sr. Efficiency and Training Specialist</p>
+      <p class="mrow">Sunrun · Remote · pay n/a</p>
+      <span class="traj bridge">bridge</span>
+      <p class="verdict">Best moderate fit of the Sunrun cohort. Sr. Efficiency role is brain-free, remote, and taps his systems/documentation strengths; potential bridge into ops leadership or creative operations within 12–18 months, but only if salary is $24+/hr and equity conversation is possible.</p>
+      <div class="ev"><div><span class="want">they want: Training, efficiency, systems documentation, and process design</span><br><span class="have">you have: Documented years of accurate records/data-entry work and studio operations—building internal systems and workflows</span></div><div><span class="want">they want: Sr. role suggests subject-matter expertise and mentorship</span><br><span class="have">you have: He has self-taught complex software (DAWs, web stacks, AI tooling) and onboarded clients—implicit teaching/documentation skill</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.themuse.com/jobs/sunrun/sr-efficiency-and-training-specialist-1987c3" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: The Muse · <a class="plain" href="https://www.google.com/search?q=%22Sunrun%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">48</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">18</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">CRO specialist</p>
+      <p class="mrow">sofatutor · Remote · $60,000 - $70,000</p>
+      <span class="traj bridge">bridge</span>
+      <p class="verdict">Best floor-axis fit so far: salary is solid, remote, stable employer, and CRO work is learnable for someone who shipped websites and understands user behavior—but it&#x27;s not his craft and offers no ownership stake or leadership path.</p>
+      <div class="ev"><div><span class="want">they want: A/B testing, data-driven experimentation, design &amp; measurement</span><br><span class="have">you have: Builds and ships client websites end to end; ranked top 3 in Nordstrom sales on service alone — understands user behavior and conversion</span></div><div><span class="want">they want: conversion optimization, user psychology, product growth analytics</span><br><span class="have">you have: Runs a one-man studio; booked paying client roster from zero within 60 days — understands customer acquisition and retention</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://remoteOK.com/remote-jobs/remote-cro-specialist-sofatutor-1134522" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: RemoteOK · <a class="plain" href="https://www.google.com/search?q=%22sofatutor%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+    <div class="card">
+      <div class="scores">
+        <div class="score"><div class="scoren">45</div><div class="scorel">floor</div></div>
+        <div class="score"><div class="scoren">0</div><div class="scorel">own</div></div>
+      </div>
+      <p class="mini">Associate Billing Representative - National Remote</p>
+      <p class="mrow">Optum · Remote · pay n/a</p>
+      <span class="traj floor">floor</span>
+      <p class="verdict">Solid floor candidate if salary is $24/hr+: predictable, stable, brain-free work that protects family time and morning routine, but salary is a mystery and offers no ownership or craft trajectory.</p>
+      <div class="ev"><div><span class="want">they want: associate billing representative managing records and data accuracy</span><br><span class="have">you have: years of accurate records/data-entry work (warehouses, retail, own studio ops)</span></div></div>
+      <div class="btns"><a class="btn apply" href="https://www.themuse.com/jobs/optum/associate-billing-representative-national-remote-0819e4" target="_blank">View / Apply →</a></div>
+      <p class="mrow" style="margin-top:8px">source: The Muse · <a class="plain" href="https://www.google.com/search?q=%22Optum%22+careers" target="_blank">apply direct (free)</a></p>
+    </div>
+
+<div class="section">Boards worth a 2-minute browse (the agent can't scan these — their walls, not ours)</div>
+<a class="dl" href="https://wellfound.com/role/r/web-designer" target="_blank"><b>Wellfound — remote Web Designer roles</b><br><span>2-minute browse, you drive →</span></a><a class="dl" href="https://wellfound.com/role/r/creative-director" target="_blank"><b>Wellfound — remote Creative Director roles</b><br><span>2-minute browse, you drive →</span></a><a class="dl" href="https://wellfound.com/location/san-diego" target="_blank"><b>Wellfound — San Diego startup jobs</b><br><span>2-minute browse, you drive →</span></a><a class="dl" href="https://www.glassdoor.com/Job/san-diego-administrative-assistant-jobs-SRCH_IL.0,9_IC1147311_KO10,34.htm" target="_blank"><b>Glassdoor — SD admin/ops $46k+ (newest first)</b><br><span>2-minute browse, you drive →</span></a>
 
 <p class="foot">Built by your job agent + Claude. Every match beats your Sprouts floor,
 breaks zero dealbreakers, and clears your 51% rule. Final call is always yours.</p>
